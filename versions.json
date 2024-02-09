@@ -3,5 +3,10 @@
     "version": "update-workflows",
     "title": "update-workflows",
     "aliases": []
+  },
+  {
+    "version": "latest",
+    "title": "latest",
+    "aliases": []
   }
 ]

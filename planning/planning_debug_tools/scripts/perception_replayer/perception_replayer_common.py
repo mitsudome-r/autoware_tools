@@ -19,9 +19,9 @@ from subprocess import CalledProcessError
 from subprocess import check_output
 import time
 
-from autoware_auto_perception_msgs.msg import DetectedObjects
-from autoware_auto_perception_msgs.msg import PredictedObjects
-from autoware_auto_perception_msgs.msg import TrackedObjects
+from autoware_perception_msgs.msg import DetectedObjects
+from autoware_perception_msgs.msg import PredictedObjects
+from autoware_perception_msgs.msg import TrackedObjects
 from autoware_auto_perception_msgs.msg import TrafficSignalArray as AutoTrafficSignalArray
 from autoware_perception_msgs.msg import TrafficSignalArray
 from geometry_msgs.msg import PoseStamped

@@ -2,8 +2,8 @@
 Changelog for package autoware_static_centerline_generator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.1 (2025-11-16)
+------------------
 * feat(static_centerline): add jitter validation (`#305 <https://github.com/mitsudome-r/autoware_tools/issues/305>`_)
   * feat(static_centerline): add jitter validation
   * fix: extra comment

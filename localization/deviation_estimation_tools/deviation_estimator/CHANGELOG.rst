@@ -2,8 +2,8 @@
 Changelog for package deviation_estimator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.1 (2025-11-16)
+------------------
 * chore: update maintainer (`#304 <https://github.com/mitsudome-r/autoware_tools/issues/304>`_)
   * chore: update maintainer
   remove Ryu Yamamoto

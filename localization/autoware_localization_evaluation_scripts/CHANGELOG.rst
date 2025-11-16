@@ -2,8 +2,8 @@
 Changelog for package autoware_localization_evaluation_scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.1 (2025-11-16)
+------------------
 * feat(autoware_localization_evaluation_scripts): add new diagnostics to check and refactor diagnostics_flag_check (`#310 <https://github.com/mitsudome-r/autoware_tools/issues/310>`_)
   * fix process when there is no DiagnosticsFlagCheck in scenario
   * fix typo

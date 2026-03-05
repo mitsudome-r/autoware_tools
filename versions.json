@@ -13,5 +13,10 @@
     "version": "latest",
     "title": "latest",
     "aliases": []
+  },
+  {
+    "version": "branch-main",
+    "title": "branch-main",
+    "aliases": []
   }
 ]

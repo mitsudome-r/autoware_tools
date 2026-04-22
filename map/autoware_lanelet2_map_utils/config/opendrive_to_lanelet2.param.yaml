@@ -1,0 +1,10 @@
+/**:
+  ros__parameters:
+    xodr_input_path: $(var xodr_input_path)
+    llt_output_path: $(var llt_output_path)
+    sample_step_m: 1.0
+    merge_tol_m: 0.05
+    skip_sidewalks: false
+    traffic_light_types: ""
+    origin_lat: 0.0
+    origin_lon: 0.0

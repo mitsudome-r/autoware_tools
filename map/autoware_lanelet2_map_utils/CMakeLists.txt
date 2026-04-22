@@ -22,6 +22,11 @@ ament_auto_add_executable(merge_close_lines src/merge_close_lines.cpp)
 ament_auto_add_executable(merge_close_points src/merge_close_points.cpp)
 ament_auto_add_executable(remove_unreferenced_geometry src/remove_unreferenced_geometry.cpp)
 ament_auto_add_executable(fix_lane_change_tags src/fix_lane_change_tags.cpp)
+ament_auto_add_executable(opendrive_to_lanelet2 src/opendrive_to_lanelet2.cpp)
+# Force-link autoware_lanelet2_extension so the static parser registrar in
+# autoware_opendrive_parser.cpp actually runs. Without --no-as-needed the
+# linker strips the library because no symbol is referenced at compile time.
+target_link_options(opendrive_to_lanelet2 PRIVATE "LINKER:--no-as-needed")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
